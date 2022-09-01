@@ -1,9 +1,22 @@
 .layout-component {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 18% 82%;
+  gap: 0.5rem;
+  grid-template-columns: 18% calc(82% - 0.5rem);
+  grid-template-rows: 12.5% calc(87.5% - 0.5rem);
 }
 
-main {
-  background-color: pink;
+.main-navigation-container {
+  grid-row: 1 / -1;
+}
+
+.dashboard-header {
+  background-color: #ffffff;
+}
+
+.dashboard-page-container {
+  background-color: #ffffff;
+  margin: 1.75rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
 }
