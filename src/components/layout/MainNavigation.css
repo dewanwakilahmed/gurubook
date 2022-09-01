@@ -1,0 +1,56 @@
+.main-navigation-component {
+  padding: 2.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.gurubook-logo-full {
+  width: 13.5rem;
+}
+
+nav {
+  margin-top: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav ul li {
+  margin-top: 2.5rem;
+}
+
+nav ul li a,
+.logout-btn {
+  display: flex;
+  gap: 1.5rem;
+  color: inherit;
+  text-decoration: none;
+  align-items: center;
+}
+
+nav ul li a:hover,
+.logout-btn:hover {
+  color: #027368;
+  font-weight: 500;
+}
+
+.nav-icon {
+  width: 2.75rem;
+}
+
+nav ul li a:hover .nav-icon {
+  filter: invert(27%) sepia(47%) saturate(1849%) hue-rotate(142deg)
+    brightness(101%) contrast(98%);
+}
+
+.logout-btn {
+  margin-top: auto;
+  cursor: pointer;
+}
+
+.logout-btn:hover .logout-btn .nav-icon {
+  filter: invert(27%) sepia(47%) saturate(1849%) hue-rotate(142deg)
+    brightness(101%) contrast(98%);
+}
